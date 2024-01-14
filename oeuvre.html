@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fatimata Ndiaye - Oeuvres Caritatives</title>
+    <style>
+      body {
+        background: linear-gradient(
+          to bottom,
+          rgba(210, 180, 140, 0.5),
+          rgba(139, 69, 19, 0.5)
+        );
+        font-family: Arial, sans-serif;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .portfolio-item.oeuvres-caritatives {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .portfolio-item.oeuvres-caritatives {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+
+      .portfolio-item.oeuvres-caritatives-container {
+        display: flex;
+        overflow: hidden;
+        max-width: 640px;
+        margin: 0 auto;
+      }
+
+      .portfolio-item.oeuvres-caritatives-container {
+        display: flex;
+        animation: scroll 10s linear infinite;
+        width: 1920px;
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+
+        25% {
+          transform: translateX(0);
+        }
+
+        50% {
+          transform: translateX(-640px);
+        }
+
+        75% {
+          transform: translateX(-1280px);
+        }
+
+        100% {
+          transform: translateX(-1920px);
+        }
+      }
+
+      .text-container {
+        width: 640px;
+        margin: 20px auto;
+      }
+
+      footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        background: linear-gradient(
+          to bottom,
+          rgba(137, 108, 70, 0.5),
+          rgba(139, 69, 19, 0.5)
+        );
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h2>Oeuvres Caritatives</h2>
+    </header>
+
+    <section>
+      <div class="portfolio-item oeuvres-caritatives">
+        <img src="images/caritatif1.jpg" alt="Oeuvres Caritatives" />
+
+        <video controls poster="images/entrée pouponniere.PNG">
+          <source src="images/caritatif2.mp4" type="video/mp4" />
+        </video>
+
+        <video controls poster="images/dons pouponnière.PNG">
+          <source src="images/caritatif3.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="text-container">
+        <p>
+          À notre arrivée, l'accueil chaleureux des petits visages rayonnants a
+          instantanément illuminé la journée. Les rires et les jeux ont créé une
+          atmosphère de joie contagieuse, rappelant l'importance de la
+          simplicité et de la pureté dans nos vies. Les dons que nous avons
+          apportés ont trouvé leur place dans chaque coin de la pouponnière. Des
+          fournitures essentielles, des jouets colorés et des articles de
+          première nécessité ont été remis avec des sourires sincères et des
+          gestes d'affection. La gratitude dans les yeux des enfants a été une
+          récompense en soi, faisant de cette journée un moment mémorable de
+          partage et de compassion. Au-delà des objets matériels, la connexion
+          humaine a été le véritable trésor de cette expérience. Passer du temps
+          avec ces jeunes esprits a créé des liens spéciaux, rappelant l'impact
+          profond que de simples actes de générosité peuvent avoir sur les vies
+          des autres. Cette journée à la pouponnière de Mbour a été bien plus
+          qu'une simple œuvre caritative. C'était un rappel puissant de la
+          beauté qui émane de donner, de partager et de s'engager dans des actes
+          d'amour désintéressé.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024 Fatimata Ndiaye. Tous droits réservés. |
+        <a href="portefolio.html">Retour vers portefolio</a>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+/* Styles généraux communs à toutes les pages */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ae666f;
+    color: #f4e7e7;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #c0969b;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #855157;
+    text-align: center;
+}
+
+/* Styles spécifiques aux boutons de la navigation */
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c0969b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.nav-button:hover {
+    border-bottom: 2px solid #fff;
+    /* Ajustez la couleur et l'épaisseur selon vos préférences */
+}
+
+
+header {
+    background-color: #ae666f;
+    color: #f4e7e7;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    border-radius: 50%;
+    /* Pour arrondir les coins de l'image */
+    max-width: 150px;
+    /* Ajustez la largeur maximale selon vos préférences */
+    height: auto;
+    /* Pour maintenir les proportions de l'image */
+    margin-bottom: 10px;
+    /* Marge sous l'image */
+}
+
+footer {
+    color: #ae666f;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Réduire la marge des boutons au-delà d'une certaine largeur */
+@media screen and (min-width: 768px) {
+    .nav-button {
+        margin: 10px 5px;
+    }
+}
+
+/* Media Queries pour les appareils spécifiques */
+/* Pour les téléphones */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Pour les tablettes */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Ajoutez des styles spécifiques si nécessaire */
+}
+
+/* Pour les ordinateurs */
+@media only screen and (min-width: 1024px) {
+    /* Ajoutez des styles spécifiques si nécessaire */
+}

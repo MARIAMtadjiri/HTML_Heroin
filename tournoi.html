@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fatimata Ndiaye - Tournoi</title>
+    <style>
+      body {
+        background: linear-gradient(to bottom, #3d779b, #2a57b9);
+
+        font-family: Arial, sans-serif;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      header {
+        text-align: center;
+        padding: 20px;
+      }
+
+      header h2 {
+        font-size: 3em;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      #carrousel {
+        width: 640px;
+        overflow: hidden;
+      }
+
+      .image {
+        display: flex;
+        animation: duration 20s infinite;
+        width: 3200px;
+
+        /* 640px * 5 images */
+      }
+
+      @keyframes duration {
+        0% {
+          transform: translateX(0);
+        }
+
+        20% {
+          transform: translateX(-640px);
+        }
+
+        40% {
+          transform: translateX(-1280px);
+        }
+
+        60% {
+          transform: translateX(-1920px);
+        }
+
+        80% {
+          transform: translateX(-2560px);
+        }
+
+        100% {
+          transform: translateX(0);
+        }
+      }
+
+      .image img {
+        width: 640px;
+
+        height: 400px;
+
+        object-fit: cover;
+
+        border-radius: 8px;
+        margin-right: 10px;
+      }
+
+      .text-container {
+        width: 640px;
+
+        margin: 20px 0;
+      }
+
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        background: linear-gradient(to bottom, #2533d3, #48e2f7);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h2>Tournois</h2>
+    </header>
+
+    <section>
+      <div id="carrousel">
+        <div class="image">
+          <img src="images/tournoi1.jpg" alt="" />
+          <img src="images/tournoi2.jpg" alt="" />
+          <img src="images/tournoi3.jpg" alt="" />
+          <img src="images/tournoi4.jpg" alt="" />
+          <img src="images/tournoi5.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="text-container">
+        <p>
+          Imaginez une journée sportive dynamique sur la plage, où nous avons
+          orchestré un tournoi de volleyball et de basketball. Sur le sable, les
+          équipes se sont affrontées avec passion, créant une ambiance
+          électrique de compétition amicale. Pendant ce temps, sur le terrain de
+          basketball, les dribbles habiles et les tirs réussis ont animé la
+          journée. Le tournoi à la plage n'était pas seulement une compétition
+          sportive, mais une célébration ensoleillée de l'amitié et du sport.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024 Fatimata Ndiaye. Tous droits réservés. |
+        <a href="portefolio.html">Retour vers portefolio</a>
+      </p>
+    </footer>
+  </body>
+</html>
